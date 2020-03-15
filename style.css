@@ -217,4 +217,74 @@ body {
   font-weight: 700;
 }
 
+.recall {
+  margin-top: 69px;
+  display: flex;
+  flex-direction: column;
+}
+.recall_position {
+  margin-top: 53px;
+  display: flex;
+  align-items: center;
+}
+.recall_position > img {
+  height: 20px;
+}
+.recall_position_img {
+  margin-right: 70px;
+}
+.recall_position_img_two {
+  margin-left: 70px;
+}
+.recall > h2 {
+  font-size: 3.6rem;
+  line-height: 43px;
+  font-weight: 900;
+}
+.recall__card {
+  display: flex;
+  flex-direction: column;
+  width: 460px;
+}
+.recall__card > p {
+  margin-top: 26px;
+  font-size: 1.6rem;
+  line-height: 19px;
+  font-weight: 600;
+  color: #000000;
+}
+.recall__card_top {
+  display: flex;
+}
+.recall__card_top-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+.recall__card_top-text > h3 {
+  font-size: 3.6rem;
+  line-height: 43px;
+  color: #000000;
+  font-weight: 600;
+}
+.recall__card_top-text > h4 {
+  margin-top: 11px;
+  margin-bottom: 15px;
+  font-size: 2rem;
+  line-height: 24px;
+  color: #000000;
+  font-weight: 600;
+}
+.recall__card_top-text > h5 {
+  margin-bottom: 4px;
+  font-size: 1.6rem;
+  line-height: 19px;
+  color: #000000;
+  font-weight: 600;
+}
+
+.recall__card_two {
+  margin-left: 40px;
+}
+
 /*# sourceMappingURL=style.css.map */
