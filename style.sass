@@ -1,0 +1,192 @@
+*
+  padding: 0
+  margin: 0
+
+html
+  font-size: 10px
+
+body
+  font-family: 'Open Sans', sans-serif
+
+
+.center
+  padding: 0 calc(50% - 570px)
+
+
+.header
+  background-image: url("img/bg_head.png")
+  background-position: center
+  background-repeat: no-repeat
+  height: 525px
+  &__nav
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding-top: 29px
+    &_logo
+    &_list
+      &>ul
+       display: flex
+       width: 840px
+       justify-content: space-around
+       list-style-type: none
+       &>li
+         display: flex
+         justify-content: space-around
+         &:nth-child(3)
+          padding-right: 43px
+         &>a
+           color: #FFFFFF
+           text-decoration: none
+           font-size: 1.8rem
+           height: 22px
+           width: 50px
+           &:hover
+             font-weight: bold
+  &__content
+    display: flex
+    flex-direction: column
+    margin-top: 88px
+    &>h2
+      font-size: 4.2rem
+      color: #FFFFFF
+    &>h3
+      font-size: 3.6rem
+      color: #FFFFFF
+      margin-top: 22px
+    &_button
+      margin-top: 35px
+.button
+  width: 360px
+  height: 48px
+  background: #008DCD
+  border-radius: 30px
+  font-size: 1.6rem
+  color: #FFFFFF
+  border: none
+  cursor: pointer
+  outline: none
+  &:hover
+    box-shadow: 0 4px 15px rgba(27, 170, 235, 0.45)
+
+.about-us
+  display: flex
+  justify-content: space-between
+  margin-top: 62px
+
+  &__right
+    margin-top: 28px
+    &>h2
+      font-size: 3.6rem
+      line-height: 43px
+      color: #000000
+    &>p
+      margin-top: 22px
+      font-size: 1.6rem
+      color: #000000
+      font-weight: 400
+      line-height: 19px
+    &_button
+      margin-top: 22px
+
+.step
+  margin-top: 69px
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  &__card
+    display: flex
+    flex-direction: column
+    width: 462px
+    padding-bottom: 39px
+    &>h2
+      font-size: 3.6rem
+      line-height: 36px
+      color: #000000
+      font-weight: 600
+      margin-top: 41px
+    &>p
+      margin-top: 9px
+      font-size: 2rem
+      line-height: 24px
+      color: #000000
+      font-weight: 400
+
+.promo
+  margin-top: 96px
+  display: flex
+  justify-content: space-between
+  &>h2
+    font-size: 3rem
+    line-height: 43px
+    color: #000000
+    font-weight: 800
+
+.call
+  margin-top: 64px
+  height: 240px
+  display: flex
+  align-items: center
+  &-bg
+    background: #008DCD
+  &__left
+    display: flex
+    flex-direction: column
+
+    &>h2
+      font-size: 4rem
+      line-height: 58px
+      text-transform: uppercase
+      color: #FFFFFF
+      font-weight: 800
+    &>h3
+      margin-top: 8px
+      font-weight: 600
+      font-size: 2rem
+      line-height: 23px
+      color: #FFFFFF
+
+  &__right
+    margin-top: 50px
+    margin-left: 65px
+    display: flex
+    flex-direction: column
+    &_form
+      border: 1px solid #FFFFFF
+      box-sizing: border-box
+      border-radius: 30px
+      width: 360px
+      height: 48px
+      outline: none
+      padding-left: 21px
+      font-size: 1.6rem
+      line-height: 19px
+      background-color: #008DCD
+      color: #f7f7f8
+      &::-webkit-input-placeholder
+        color: #f7f7f8
+    &>p
+      margin-top: 16px
+      color: #FFFFFF
+      font-size: 1rem
+      line-height: 12px
+      display: flex
+      align-items: center
+      &>input
+        margin-right: 6px
+        margin-top: 2px
+        
+  &_button
+    margin-top: 9px
+    background-color: #FFCC00
+    color: #363636
+    text-transform: uppercase
+    font-size: 1.6rem
+    line-height: 19px
+    font-weight: 700
+
+
+
+
+
+

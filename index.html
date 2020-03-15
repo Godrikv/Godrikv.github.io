@@ -4,10 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800&display=swap&subset=cyrillic" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5843185d92.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>SendIt</title>
 </head>
 <body>
 
+<header class="header center">
+    <nav class="header__nav">
+        <div class="header__nav_logo">
+            <img src="img/logo.svg" alt="logo">
+        </div>
+        <div class="header__nav_list">
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Описание</a></li>
+                <li><a href="#">Преимущества</a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">Партнёры</a></li>
+                <li><a href="#">Гарантии</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="header__content">
+        <h2>ПРИДУМАЙТЕ ЧТО ОТПРАВИТЬ</h2>
+        <h3> А посылка доедет сама</h3>
+        <button class="header__content_button button">отправить посылку</button>
+    </section>
+</header>
+
+<section class="about-us center">
+    <img src="img/about-us.png" alt="about-us">
+    <div class="about-us__right">
+        <h2>Мы – агрегатор служб доставки</h2>
+        <p>С нами удобно вам, вашим клиентам и курьерским службам. Для вас наши услуги бесплатны, так как мы получаем бонусы от служб доставок за предоставленный объем заказов, а вы получаете надежный сервис в подарок!</p>
+        <button class="about-us__right_button button">отправить посылку</button>
+    </div>
+</section>
+
+<section class="step center">
+    <div class="step__card">
+        <img src="img/step_1.png" alt="step">
+        <h2>Шаг 1</h2>
+        <p>Придумайте что и кому отправить</p>
+    </div>
+    <div class="step__card">
+        <img src="img/step_2.png" alt="step">
+        <h2>Шаг 2</h2>
+        <p>Создайте заявку на сайте SendIt - Ваш персональный менеджер позвонит и подтвердит запрос, уточнит все необходимые данные</p>
+    </div>
+    <div class="step__card">
+        <img src="img/step_3.png" alt="step">
+        <h2>Шаг 3</h2>
+        <p>К Вам приезжает курьер, забирает посылку, Вы подписываете один документ</p>
+    </div>
+    <div class="step__card">
+        <img src="img/step_4.png" alt="step">
+        <h2>Шаг 4</h2>
+        <p>Вы ждёте подтверждения доставки, слова радости и благодарности от адресата :)</p>
+    </div>
+</section>
+
+<section class="promo center">
+    <h2>Мы берём все заботы по доставке на себя!</h2>
+    <button class="promo_button button">отправить посылку</button>
+</section>
+
+<section class="call-bg">
+    <div class="call center">
+        <div class="call__left">
+            <h2>хотите мы вам перезвоним?</h2>
+            <h3>Закажите звонок, и менеджер вам всё расскажет и объяснит</h3>
+        </div>
+        <div class="call__right">
+            <label for="call__right_form"></label>
+            <input type="text" class="call__right_form" id="call__right_form" placeholder="Ваш телефон">
+            <button class="call_button button">ЗАКАЗАТЬ ЗВОНОК</button>
+            <p><input type="checkbox">Я согласен на обработку персональных данных</p>
+        </div>
+    </div>
+</section>
+
+
+
+</div>
 </body>
 </html>
