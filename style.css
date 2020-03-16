@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -371,6 +372,71 @@ body {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.doubt {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+}
+.doubt__bg {
+  background: #D2ECF7;
+}
+.doubt > h2 {
+  margin-top: 64px;
+  font-size: 3.2rem;
+  line-height: 43px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.doubt__drop {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.doubt__drop_one > details {
+  width: 558px;
+  margin-bottom: 30px;
+  background: #FFFFFF;
+  border-radius: 200px;
+}
+.doubt__drop_one > details > p {
+  font-size: 1.4rem;
+  line-height: 19px;
+  padding: 20px 35px 20px 35px;
+}
+.doubt__drop_one > details > summary {
+  font-size: 1.3rem;
+  line-height: 19px;
+  padding: 9px 35px 3px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+summary {
+  display: block;
+  outline-style: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary::after {
+  content: "˃";
+  display: flex;
+  justify-content: flex-end;
+  color: #008DCD;
+}
+
+details[open] > summary::after {
+  content: "˅";
+}
+
+details summary::-webkit-details-marker {
+  color: #008DCD;
 }
 
 /*# sourceMappingURL=style.css.map */
