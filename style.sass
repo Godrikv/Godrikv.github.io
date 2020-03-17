@@ -17,13 +17,13 @@ body
   background-image: url("img/bg_head.png")
   background-position: center
   background-repeat: no-repeat
+  
   height: 525px
   &__nav
     display: flex
     justify-content: space-between
     align-items: center
     padding-top: 29px
-    &_logo
     &_list
       &>ul
        display: flex
@@ -315,6 +315,7 @@ body
 
 .doubt
   margin-top: 64px
+  margin-bottom: 59px
   display: flex
   flex-direction: column
   &__bg
@@ -369,6 +370,88 @@ details[open] > summary::after
 details summary::-webkit-details-marker
   color: #008DCD
 
+
+.partners
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin-bottom: 53px
+  &>i
+    &:hover
+      color: #008DCD
+  &__icon
+    display: flex
+    &>img
+      padding-right: 20px
+
+.footer
+  display: flex
+  flex-direction: column
+  background: #E9E9E9
+  &_up
+    display: flex
+    justify-content: space-between
+    &_call
+      display: flex
+      flex-direction: column
+
+      &_call
+        border: 1px solid #363636
+        box-sizing: border-box
+        border-radius: 30px
+        width: 360px
+        height: 48px
+        outline: none
+        padding-left: 21px
+        font-size: 1.6rem
+        line-height: 19px
+        color: #000000
+        margin-bottom: 9px
+        &::-webkit-input-placeholder
+          color: #000000
+      &>p
+        display: flex
+        align-items: center
+
+        color: #9E9E9E
+        &>input
+          margin-right: 5px
+    &>h2
+      font-size: 3rem
+      line-height: 36px
+      margin-right: 10px
+  &_nav
+    display: flex
+    justify-content: space-around
+    &>ul
+      &>li
+        &>a
+          color: black
+  &_bottom
+    margin-top: 47px
+    margin-bottom: 22px
+    display: flex
+    justify-content: space-between
+    &>h2
+      font-size: 1.6rem
+      line-height: 19px
+      font-weight: 600
+    &_img
+      display: flex
+      &>div
+        background-color: #008DCD
+        width: 20px
+        height: 20px
+        border-radius: 50%
+        display: flex
+        align-items: center
+        justify-content: center
+        margin-right: 30px
+        &>a
+          color: #f7f7f8
+.hr
+  margin-top: 10px
+  margin-bottom: 10px
 
 
 
