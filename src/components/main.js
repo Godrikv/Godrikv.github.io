@@ -8,6 +8,6 @@ getVideo.addEventListener('ended', function f() {let audio = new Audio(); // С�
 
 //шины
 let shins = document.querySelectorAll('.shins');
-getVideo.addEventListener('ended', function () {
+getVideo.addEventListener('ended', function fe() {
     shins.forEach(element => shins.style.opacity = '0')
 });
