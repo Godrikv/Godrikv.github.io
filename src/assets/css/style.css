@@ -52,7 +52,7 @@ body {
 }
 @media (min-width: 1140px) {
   .center {
-    padding: 0 calc(50% - 590px);
+    padding: 0 calc(50% - 700px);
   }
 }
 .header {
@@ -212,7 +212,7 @@ body {
 }
 .header__main_center {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin-top: 20px;
 }
