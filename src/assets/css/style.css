@@ -254,7 +254,7 @@ body {
 }
 
 .shins {
-  opacity: 0;
+  opacity: 1;
 }
 .shins__flag {
   position: absolute;
