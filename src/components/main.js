@@ -5,7 +5,9 @@ getVideo.addEventListener('ended', function f() {
     let audio = new Audio();
     audio.src = '../src/assets/audio/audio.mp3';
     audio.autoplay = true;
-    document.querySelector('.shins').style.opacity = '0';
+    document.querySelectorAll('.shins').forEach(function (item) {
+item.style.opacity = '0'
+    });
 });
 
 //шины
