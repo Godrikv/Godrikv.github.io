@@ -147,10 +147,12 @@ body {
 }
 .header__main_top {
   display: flex;
+  position: relative;
 }
 .header__main_top-text {
   display: flex;
   flex-direction: column;
+  padding-left: 520px;
 }
 .header__main_top-text_position {
   display: flex;
@@ -189,6 +191,7 @@ body {
   width: 100%;
 }
 .header__main_menu_list {
+  border-bottom: 1px solid white;
   height: 40px;
   width: 110px;
   margin-right: 35px;
@@ -211,9 +214,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 .header__flag {
-  padding-left: 280px;
+  margin-left: 200px;
+  position: absolute;
+  top: -15.8px;
+  transform: rotate(-2.5deg);
 }
 
 /*# sourceMappingURL=style.css.map */
