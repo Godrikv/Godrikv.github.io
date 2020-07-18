@@ -1,0 +1,142 @@
+body {
+  font-family: "SF Pro Display", sans-serif;
+  cursor: default;
+}
+
+@font-face {
+  font-family: "8143";
+  src: url("../fonts/8143.otf");
+}
+@font-face {
+  font-family: "arial-narrow-bold-italic";
+  src: url("../fonts/arial-narrow-bold-italic.ttf");
+}
+@font-face {
+  font-family: "arial";
+  src: url("../fonts/arial.ttf");
+}
+@font-face {
+  font-family: "FRABK";
+  src: url("../fonts/FRABK.TTF");
+}
+@font-face {
+  font-family: "FRADM";
+  src: url("../fonts/FRADM.TTF");
+}
+@font-face {
+  font-family: "FRADMIT";
+  src: url("../fonts/FRADMIT.TTF");
+}
+@font-face {
+  font-family: "FRABKIT";
+  src: url("../fonts/FRABKIT.TTF");
+}
+@media (min-width: 576px) {
+  .center {
+    padding: 0 calc(50% - 270px);
+  }
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+
+  .center {
+    padding: 0 calc(50% - 360px);
+  }
+}
+@media (min-width: 992px) {
+  .center {
+    padding: 0 calc(50% - 480px);
+  }
+}
+@media (min-width: 1140px) {
+  .center {
+    padding: 0 calc(50% - 590px);
+  }
+}
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.header__top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  height: 39px;
+}
+.header__top_menu {
+  width: 900px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #f3f8f7;
+  line-height: 14px;
+  font-family: "MyriadPro-Regular";
+  justify-content: space-around;
+}
+.header__top_time {
+  font-family: "ArialNarrow-BoldItalic";
+  font-size: 30px;
+  color: #c10000;
+  letter-spacing: 0.2em;
+}
+.header__top-drop {
+  color: #f3f8f7;
+  padding-right: 22px;
+}
+.header__bottom {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  align-items: center;
+  height: 33px;
+}
+.header__bottom_menu {
+  font-family: "MyriadPro-Regular";
+  font-size: 12px;
+  color: white;
+  letter-spacing: 0.2em;
+  padding-left: 15px;
+}
+.header__bottom_register {
+  font-family: "MyriadPro-Regular";
+  font-size: 11px;
+  color: #fefefe;
+  line-height: 36px;
+}
+.header__bottom_register:hover {
+  color: #f2bb7a;
+  cursor: pointer;
+}
+.header__bottom_language {
+  font-family: "MyriadPro-Regular";
+  font-size: 11px;
+  color: white;
+  text-align: right;
+  letter-spacing: 0.5em;
+  line-height: 13px;
+  cursor: pointer;
+  display: flex;
+  margin: 0 10px;
+}
+.header__bottom_language-ru:hover {
+  color: #f2bb7a;
+  cursor: pointer;
+}
+.header__bottom_language-en:hover {
+  color: #f2bb7a;
+  cursor: pointer;
+}
+.header__bottom_language-kaz:hover {
+  color: #f2bb7a;
+  cursor: pointer;
+}
+.header__line {
+  height: 4px;
+  background-color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
