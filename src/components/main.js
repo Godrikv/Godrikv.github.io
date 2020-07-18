@@ -12,6 +12,6 @@ getVideo.addEventListener('ended', function () {
 
 
         shins.style.opacity = '0';
-        
+
 
 });
