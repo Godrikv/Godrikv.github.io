@@ -216,11 +216,51 @@ body {
   align-items: center;
   margin-top: 20px;
 }
-.header__flag {
-  margin-left: 200px;
+.header__main_center_drop {
+  height: 250px;
+  width: 30px;
+  background-color: #c10000;
+  writing-mode: tb-rl;
+  font-family: "MyriadPro-Regular";
+  font-size: 12px;
+  color: #e1e6f8;
+  letter-spacing: 0.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.header__bot_slash {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.header__bot_slash_one {
+  background-color: blue;
+  height: 1px;
+  width: 173px;
+  margin-right: 20px;
+}
+.header__bot_slash_two {
+  background-color: #181818;
+  height: 1px;
+  width: 173px;
+  margin-right: 20px;
+}
+.header__bot_slash_three {
+  background-color: #c10000;
+  height: 1px;
+  width: 173px;
+}
+
+.shins {
+  opacity: 0;
+}
+.shins__flag {
   position: absolute;
-  top: -15.8px;
+  top: -16.7px;
   transform: rotate(-2.5deg);
+  left: -12.6px;
 }
 
 /*# sourceMappingURL=style.css.map */
