@@ -1,6 +1,7 @@
 @media (min-width: 1140px)
   .center
-    padding: 0 calc(50% - 700px)
+    margin: 0 auto
+    padding: 0 20px
 
 .header
   width: 100%
@@ -153,6 +154,60 @@
     width: 100%
     display: flex
     justify-content: center
+    flex-direction: column
+    &_line
+      width: 100%
+      display: flex
+      justify-content: center
+    &_promo
+      width: 100%
+      display: flex
+      justify-content: center
+      flex-direction: column
+      &_top
+        font-family: 'MyriadPro-Regular'
+        font-size: 12px
+        color: rgba(60, 60, 61, 1)
+        letter-spacing: 0.2em
+        text-align: center
+        padding-top: 14px
+      &_bot
+        font-family: 'ArialNarrow-BoldItalic'
+        font-size: 18px
+        color: rgba(40, 42, 41, 1)
+        text-align: center
+        letter-spacing: 0.2em
+        line-height: 6px
+        padding-top: 9px
+    &_img
+      display: flex
+      margin: 45px 0 50px 50px
+      width: auto
+      height: auto
+      justify-content: center
+
+      &_block
+        display: flex
+        flex-direction: column
+        width: auto
+        height: 300px
+        justify-content: space-around
+        padding: 16px
+      &_car
+        padding: 0 60px
+        width: auto
+
+
+
+
+
+
+
+      &_car:hover
+        transition: 1s
+        transform: scale(1.2)
+
+
 
     &_one
       background-color: blue
@@ -169,20 +224,16 @@
       height: 1px
       width: 173px
 
-
-.shins
-
-
-
-
-
-
   &__flag
     position: absolute
-    top: -16.7px
-    transform: rotate(-2.5deg)
-    left: -12.6px
+    left: -0.6px
+    z-index: 1
 
+.block_flag
+  position: absolute
+  width: 130px
+  height: 255px
+  background-color: #f3f8f7
 
 
 
