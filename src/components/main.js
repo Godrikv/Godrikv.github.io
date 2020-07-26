@@ -8,6 +8,7 @@ getVideo.addEventListener('ended', function f() {
     document.querySelectorAll('.shins').forEach(function (item) {
 item.style.opacity = '0'
     });
+    document.querySelector('.header__main').style.backgroundImage = 'url("../img/fon.png")'
 });
 
 //шины

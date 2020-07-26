@@ -318,4 +318,27 @@ body {
   background-color: #f3f8f7;
 }
 
+.canvas-wrap {
+  position: relative;
+  top: -5px;
+  right: 15px;
+}
+
+#canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.plane {
+  width: 180px;
+  height: 310px;
+}
+
+.plane img {
+  display: none;
+}
+
 /*# sourceMappingURL=style.css.map */
