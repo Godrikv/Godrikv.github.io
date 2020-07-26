@@ -78,13 +78,14 @@
     background-position-y: 17px
     width: 100%
     height: 1000px
+    transition: all 1s cubic-bezier(0, 0, 1, 1) 500ms
     &_top
       display: flex
       position: relative
       &-text
         display: flex
         flex-direction: column
-        padding-left: 520px
+        padding-left: 350px
         &_position
           display: flex
           flex-direction: column
@@ -196,19 +197,9 @@
       &_car
         padding: 0 60px
         width: auto
-
-
-
-
-
-
-
       &_car:hover
         transition: 1s
         transform: scale(1.2)
-
-
-
     &_one
       background-color: blue
       height: 1px
@@ -223,7 +214,6 @@
       background-color: #c10000
       height: 1px
       width: 173px
-
   &__flag
     position: absolute
     left: -0.6px
@@ -256,6 +246,10 @@
   display: none
 
 
+///////////////////////////////// шины
 
+.shins
+  opacity: 0
+  transition: opacity 1s cubic-bezier(0, 0, 1, 1) 500ms
 
 
